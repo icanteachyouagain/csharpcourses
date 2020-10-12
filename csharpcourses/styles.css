@@ -1,0 +1,214 @@
+img
+{
+  width: 100%;
+}
+form {
+  background-color: cornsilk;
+  padding: 10px;
+  max-width: 460px;
+  position: fixed;
+  top: 40%;
+  left: 35%;
+  border-style: solid;
+  border-color: black;
+  border-radius: 4px;
+  color:black;
+}
+body
+{
+  background-image: url(images/background.jpg);
+}
+.faq
+{
+  position: absolute;
+  border: black;
+  background-color: cornsilk;
+  border-style: solid;
+  width: 700px;
+  top: 20%;
+  margin-bottom: 20%;
+  right: 32%;
+  text-align: center;
+}
+.text1
+{
+  font-size: 22px;
+  font-weight: bold;
+}
+.text2
+{
+  text-align: left;
+  font-size: 18px;
+  padding-right: 10%;
+  padding-left: 10%;
+}
+.text3
+{
+  text-align: left;
+  font-size: 16px;
+  padding-right: 10%;
+  padding-left: 10%;
+}
+.menu
+{
+  position: absolute;
+  top: 0%;
+  width: 100%;
+  left: 0%;
+}
+A:link 
+  { 
+  text-decoration: none;
+  } 
+ A:visited 
+  { 
+   text-decoration: none;
+   color: black; 
+  } 
+ A:active 
+  { 
+    text-decoration: none;
+    color: black; 
+  }
+ A:hover 
+  {
+  text-decoration: none;
+  color: black;
+  }
+.phonebut
+{
+  position: fixed;
+  bottom: 5%;
+  right: 1%;
+  border: 2px solid black;
+  border-radius: 10px;
+  background-color: blanchedalmond;
+  width: 200px;
+  text-align: center;
+  font-size: 24px;
+  
+}
+.button1
+{
+  position: fixed;
+  top: 5%;
+  right: 23%;
+  border: 2px solid black;
+  border-radius: 10px;
+  background-color: cornsilk;
+  width: 100px;
+  text-align: center;
+  font-size: 20px;
+}
+.button2
+{
+  position:fixed;
+  top: 5%;
+  right: 31%;
+  border: 2px solid black;
+  border-radius: 10px;
+  background-color: cornsilk;
+  width: 200px;
+  text-align: center;
+  font-size: 20px;
+}
+.logo
+{
+  position: absolute;
+  width: 100px;
+  left: 3%;
+  top: 7%;
+}
+.sim-slider 
+{
+  width: 520px;
+  margin: 20px auto;
+  padding: 30px 50px;
+  border: 0px solid white;
+}
+
+.sim-slider 
+{
+  position: relative;
+  margin-top: 12%;
+}
+
+.sim-slider-list 
+{
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  position: relative;
+}
+
+.sim-slider-element 
+{
+  width: 100%;
+  transition: opacity 1s ease-in;
+  opacity: 0;
+  position: absolute;
+  z-index: 2;
+  left: 0;
+  top: 0;
+  display: block;
+}
+
+div.sim-slider-arrow-left,
+div.sim-slider-arrow-right 
+{
+  width: 22px;
+  height: 40px;
+  position: absolute;
+  cursor: pointer;
+  opacity: 0.6;
+  z-index: 4;
+}
+
+div.sim-slider-arrow-left 
+{
+  color: #BBB;
+  left: 10px;
+  top: 170%;
+  display: block;
+  background: url("http://pvbk.spb.ru/inc/slider/sim-files/sim-arrow-left.png") no-repeat;
+}
+
+div.sim-slider-arrow-right 
+{
+  right: 10px;
+  top: 170%;
+  display: block;
+  background: url("http://pvbk.spb.ru/inc/slider/sim-files/sim-arrow-right.png") no-repeat;
+}
+
+div.sim-slider-arrow-left:hover 
+{
+  opacity: 1.0;
+}
+
+div.sim-slider-arrow-right:hover 
+{
+  opacity: 1.0;
+}
+
+div.sim-slider-dots 
+{
+  width: 100%;
+  height: auto;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  z-index: 3;
+  text-align: center;
+}
+span.sim-dot 
+{
+  width: 10px;
+  height: 10px;
+  margin: 5px 7px;
+  padding: 0;
+  display: inline-block;
+  background-color: #BBB;
+  border-radius: 5px;
+  cursor: pointer;
+}
